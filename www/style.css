@@ -1,0 +1,21 @@
+.การปรับเเต่งปุ่ม {
+  display: flex;             
+  justify-content: center;    
+  gap: 15px;                  
+  margin-top: 50px;          
+}
+
+.but {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 22px;
+  transition: background 0.3s;
+}
+
+.but:hover {
+  background-color: red;
+  border: 1px solid #007bff;
+}
