@@ -30,7 +30,7 @@ $result = $connect->query($sql);
         <h1 style="text-align: center;">จำนวนสั่งสินค้าในหมวด Classic Cars ระหว่างปี 2003-2004</h1>
         <div class="การปรับเเต่งปุ่ม">
             <button onclick="window.location.href='index.php'" class="but">ไปหน้า 1</button>
-            <button onclick="window.location.href='index2.php'" class="but">ไปหน้า 2</button>
+            <button onclick="window.location.href='2.php'" class="but">ไปหน้า 2</button>
         </div>
         <table class="table">
             <thead>
@@ -58,4 +58,5 @@ $result = $connect->query($sql);
         </table>
     </div>
 </body>
+
 </html>
