@@ -21,8 +21,8 @@ $result = $connect->query($sql);
     <div class="container">
         <h1 style="text-align: center;">ข้อมูลพนักงาน</h1>
         <div class="การปรับเเต่งปุ่ม">
-            <button onclick="window.location.href='index2.php'" class="but">ไปหน้า 2</button>
-            <button onclick="window.location.href='index3.php'" class="but">ไปหน้า 3</button>
+            <button onclick="window.location.href='2.php'" class="but">ไปหน้า 2</button>
+            <button onclick="window.location.href='3.php'" class="but">ไปหน้า 3</button>
         </div>
         <table class="table">
             <thead>
@@ -49,4 +49,5 @@ $result = $connect->query($sql);
 
     </div>
 </body>
+
 </html>
