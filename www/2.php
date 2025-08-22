@@ -22,7 +22,7 @@ $result = $connect->query($sql);
         <h1 style="text-align: center;">ข้อมูลยอดรวมการสั่ง Order ทั้งหมดของพนักงาน</h1>
         <div class="การปรับเเต่งปุ่ม">
             <button onclick="window.location.href='index.php'" class="but">ไปหน้า 1</button>
-            <button onclick="window.location.href='index3.php'" class="but">ไปหน้า 3</button>
+            <button onclick="window.location.href='3.php'" class="but">ไปหน้า 3</button>
         </div>
         <table class="table">
             <thead>
@@ -46,4 +46,5 @@ $result = $connect->query($sql);
         </table>
     </div>
 </body>
+
 </html>
